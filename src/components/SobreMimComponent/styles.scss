@@ -1,0 +1,23 @@
+section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 10rem 0;
+
+  h2 {
+    background: linear-gradient(#facc22, #f83600);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 3rem;
+  }
+
+  p {
+    padding: 0 2rem;
+    margin-top: 1rem;
+    color: var(--white);
+    max-width: 500px;
+    min-width: 200px;
+    text-align: justify;
+    font-size: 1.2rem;
+  }
+}

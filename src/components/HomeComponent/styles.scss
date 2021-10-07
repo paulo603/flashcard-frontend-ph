@@ -1,0 +1,45 @@
+main {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 5rem;
+
+  .text {
+    h2 {
+      background: linear-gradient(#facc22, #f83600);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      font-size: 4rem;
+    }
+  
+    h3 {
+      background: linear-gradient(#facc22, #f83600);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      font-size: 2rem;
+    }
+  }
+
+  img {
+    width: 600px;
+    height: 600px;
+  }
+}
+
+@media (max-width: 970px) {
+  main {
+    margin-top: 8rem;
+
+    img {
+      width: 300px;
+      height: 300px;
+    }
+  }
+}
+
+@media (max-width: 640px) {
+  main {
+    margin-top: 2rem;
+    flex-direction: column-reverse;
+  }
+}
